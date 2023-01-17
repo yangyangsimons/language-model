@@ -30,10 +30,6 @@ class NewAgent1(Agent):
         #     ghost1Pos = "right"
         # if 0.0 <= ghost1Angle <= math.pi/4.0:
         #     ghost1Pos = "right"
-        #print(ghost1Angle," ",ghost1Pos)
-        #print(ghost1Dist)
-        #print(state.getCapsules())
-        #print(state.getFood())
 
         ch = self.code[px][py]
         legal = state.getLegalPacmanActions()
