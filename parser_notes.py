@@ -8,7 +8,7 @@ t = parser.parse(sentence)
 #t.draw()
 pprint(list(t.subtrees()))
 pprint(t)
-print("#######################")
+print("###################")
 for st in t.subtrees():
     print(st.label())
     if st.label()=="VP":
